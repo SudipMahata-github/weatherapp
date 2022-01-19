@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  color: rgb(0, 0, 0);
+}
+
+.main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./images/adam-mescher-47Hw5d4AxKM-unsplash.jpg");
+}
+.img {
+  height: 30%;
+  width: 100%;
+  position: relative;
+  z-index: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-content {
+  height: 65%;
+  width: 50%;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  position: absolute;
+  z-index: 1;
+}
+input {
+  padding: 10px;
+  width: 35%;
+  font-size: 25px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.btn {
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(192, 170, 170);
+  border-radius: 3px;
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+.btn:hover {
+  background-color: rgb(39, 37, 37);
+  color: azure;
+}
+.city {
+  text-transform: uppercase;
+}
+.cities {
+  font-size: 25px;
+}
+.con {
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-left: 10px;
+}
+
+.temp {
+  font-size: 40px;
+}
+.main-temp {
+  display: flex;
+  align-items: center;
+}
+.weather-desc {
+  margin-left: 15px;
+}
+.hum {
+  margin-left: 30px;
+}
+
+.content-footer {
+  margin-top: 2rem;
+  border-radius: 5px;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgba(255, 255, 255, 0.06);
+}
